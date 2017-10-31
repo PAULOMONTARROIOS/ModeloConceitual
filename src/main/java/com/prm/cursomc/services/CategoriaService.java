@@ -21,5 +21,4 @@ public class CategoriaService {
 		}
 		return obj;
 	}	
-
 }
