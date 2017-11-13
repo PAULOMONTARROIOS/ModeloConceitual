@@ -55,11 +55,11 @@ public abstract class Pagamento implements Serializable{
 		this.estadoPagamento = estadoPagamento.getId();
 	}
 
-	public Pedido getPedidoo() {
+	public Pedido getPedido() {
 		return pedido;
 	}
 
-	public void setPedidoo(Pedido pedido) {
+	public void setPedido(Pedido pedido) {
 		this.pedido = pedido;
 	}
 

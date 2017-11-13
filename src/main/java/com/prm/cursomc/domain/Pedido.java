@@ -17,6 +17,7 @@ import javax.persistence.OneToOne;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+
 @Entity
 public class Pedido implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -28,7 +29,7 @@ public class Pedido implements Serializable{
 	@JsonFormat(pattern="dd/MM/yyyy hh:mm")
 	private Date instante;
 	
-	@OneToOne(cascade=CascadeType.ALL, mappedBy="pedido")
+	@OneToOne(cascade=CascadeType.ALL,mappedBy="pedido")
 	private Pagamento pagamento;
 	
 	@ManyToOne
