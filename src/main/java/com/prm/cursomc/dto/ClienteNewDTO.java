@@ -147,4 +147,22 @@ public class ClienteNewDTO implements Serializable{
 		this.cidadeId = cidadeId;
 	}
 	
+	/*
+	 * 
+	 * {
+	"nome" : "Paulo Ricardo",
+	"email" : "paulo@gmail.com",
+	"cpfOuCnpj" : "09921555413",
+	"tipo" : 1,
+	"telefone1" : "999668553",
+	"telefone2" : "985554741",
+	"logradouro" : "Rua Felicio Barros de Medeiros",
+	"numero" : "4177",
+	"complemento" : "Apt 104",
+	"cep" : "54420030",
+	"cidadeId" : "1"
+	 *	}
+	 * 
+	 * */
+
 }
